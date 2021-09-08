@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1 {
+            background-color: aqua;
+            color: blue;
+        }
+
+        td {
+            color: blue;
+
+        }
+
+
+        button {
+            background-color: gray;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>ĐĂNG KÝ HỌC VIÊN</h1>
+<form>
+    <table>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Giới tính</label></td>
+            <td>
+                <input type="radio" id="gender" name="gender">Nam
+                <input type="radio" name="gender"> Nữ
+                <input type="radio" name="gender"> Khác
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" style="width: 200px" height="200px"></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <div id="class">
+                    <select id="lớp">
+                        <option value="1">C0821I1</option>
+                        <option value="2">C0821I2</option>
+                    </select>
+                </div>
+            </td>
+        <tr>
+            <td>Email</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Đăng ký</button>
+                <button type="reset">Nhập lại</button>
+            </td>
+        </tr>
+
+    </table>
+
+
+</form>
+
+
+</body>
+</html>
